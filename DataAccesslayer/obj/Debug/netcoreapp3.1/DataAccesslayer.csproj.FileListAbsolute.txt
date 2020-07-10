@@ -1,0 +1,15 @@
+D:\.Net Core Projects\ContactApp\DataAccesslayer\bin\Debug\netcoreapp3.1\DataAccesslayer.deps.json
+D:\.Net Core Projects\ContactApp\DataAccesslayer\bin\Debug\netcoreapp3.1\DataAccesslayer.dll
+D:\.Net Core Projects\ContactApp\DataAccesslayer\obj\Debug\netcoreapp3.1\DataAccesslayer.csprojAssemblyReference.cache
+D:\.Net Core Projects\ContactApp\DataAccesslayer\obj\Debug\netcoreapp3.1\DataAccesslayer.AssemblyInfoInputs.cache
+D:\.Net Core Projects\ContactApp\DataAccesslayer\obj\Debug\netcoreapp3.1\DataAccesslayer.AssemblyInfo.cs
+D:\.Net Core Projects\ContactApp\DataAccesslayer\bin\Debug\netcoreapp3.1\DataAccesslayer.runtimeconfig.json
+D:\.Net Core Projects\ContactApp\DataAccesslayer\bin\Debug\netcoreapp3.1\DataAccesslayer.runtimeconfig.dev.json
+D:\.Net Core Projects\ContactApp\DataAccesslayer\obj\Debug\netcoreapp3.1\DataAccesslayer.genruntimeconfig.cache
+D:\.Net Core Projects\ContactApp\DataAccesslayer\bin\Debug\netcoreapp3.1\DataAccesslayer.pdb
+D:\.Net Core Projects\ContactApp\DataAccesslayer\bin\Debug\netcoreapp3.1\EntitiesLayer.dll
+D:\.Net Core Projects\ContactApp\DataAccesslayer\bin\Debug\netcoreapp3.1\EntitiesLayer.pdb
+D:\.Net Core Projects\ContactApp\DataAccesslayer\obj\Debug\netcoreapp3.1\DataAccesslayer.csproj.CoreCompileInputs.cache
+D:\.Net Core Projects\ContactApp\DataAccesslayer\obj\Debug\netcoreapp3.1\DataAccesslayer.csproj.CopyComplete
+D:\.Net Core Projects\ContactApp\DataAccesslayer\obj\Debug\netcoreapp3.1\DataAccesslayer.dll
+D:\.Net Core Projects\ContactApp\DataAccesslayer\obj\Debug\netcoreapp3.1\DataAccesslayer.pdb

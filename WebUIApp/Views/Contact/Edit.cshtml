@@ -1,0 +1,38 @@
+﻿@model ContactEditViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+    <div class="card w-50 mx-auto text-white bg-secondary mb-3">
+        <div class="card-header text-center">Edit Contact</div>
+        <div class="card-body">
+            <form asp-action="Edit" method="post" class="p-3">
+                <input type="hidden" asp-for="@Model.Id" />
+                <div class="form-group">
+                    <label asp-for="@Model.Contact.FirstName"></label>
+                    <input asp-for="@Model.Contact.FirstName" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.Contact.LastName"></label>
+                    <input asp-for="@Model.Contact.LastName" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.HomeNumber"></label>
+                    <input asp-for="@Model.HomeNumber" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.MobilNumber"></label>
+                    <input asp-for="@Model.MobilNumber" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.WorkNumber"></label>
+                    <input asp-for="@Model.WorkNumber" class="form-control" />
+                </div>
+               
+                <button type="submit" class="btn btn-sm btn-info">Save</button>
+                <a asp-action="Index" class="btn btn-warning btn-sm" >Back</a>
+            </form>
+        </div>
+
+    </div>
+

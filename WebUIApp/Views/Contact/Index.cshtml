@@ -1,0 +1,40 @@
+﻿@model List<ContactListViewModel>
+@{
+    ViewData["Title"] = "Index";
+}
+@if (Model.Count == 0)
+{
+    <div class="card text-white bg-dark mb-3">
+        <div class="card-header text-center">Contacts List Empty</div>
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"><strong><small class="mr-2">Mobile Number:</small></strong></p>
+            <p class="card-text"><strong><small class="mr-2">Home Number:</small></strong></p>
+            <p class="card-text"><strong><small class="mr-2">Work Number:</small></strong></p>
+        </div>
+       
+        <a asp-action="Create" class="btn btn-sm btn-warning text-white">Create New Contact</a>
+        
+    </div>
+
+}
+else
+{
+    @foreach (var item in Model)
+    {
+        <div class="card text-white bg-dark mb-3">
+            <div class="card-header">@item.FirstName @item.LastName</div>
+            <div class="card-body">
+                <h5 class="card-title">Contacts</h5>
+                <p class="card-text"><strong><small class="mr-2">Mobile Number:</small></strong><small>@item.MobileNumber</small></p>
+                <p class="card-text"><strong><small class="mr-2">Home Number:</small></strong><small>@item.HomeNumber</small></p>
+                <p class="card-text"><strong><small class="mr-2">Work Number:</small></strong><small>@item.WorkNumber</small></p>
+            </div>
+            <a asp-action="Details" class="btn btn-warning btn-sm" asp-route-id="@item.Id">Details</a>
+            <a asp-action="Create" class="btn btn-sm btn-dark text-white">Create New Contact</a>
+        </div>
+    }
+}
+
+
+

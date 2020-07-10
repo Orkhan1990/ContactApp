@@ -1,0 +1,86 @@
+﻿@model ContactDetailsViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+@if (Model==null)
+{
+    <div >
+        Not Have enough Contact
+    </div>
+}
+else
+{
+<div class="card text-white bg-dark mb-3">
+    <div class="card-header">@Model.Contact.FirstName @Model.Contact.LastName</div>
+    <div class="card-body">
+        <h5 class="card-title">Contacts</h5>
+        <p class="card-text"><strong><small class="mr-2">Mobile Number:</small></strong><small>@Model.MobilNumber</small></p>
+        <p class="card-text"><strong><small class="mr-2">Home Number:</small></strong><small>@Model.HomeNumber</small></p>
+        <p class="card-text"><strong><small class="mr-2">Work Number:</small></strong><small>@Model.WorkNumber</small></p>
+        <p><small class="text-muted">Created Date:  @Model.Contact.CreatedDate</small></p>
+        <p><small class="text-muted">Last Modified Date:  @Model.Contact.LastModifiedDate</small></p>
+    </div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning btn-sm">Edit</a>
+    <a class="btn btn-sm btn-dark text-white" data-toggle="modal" data-target="#exampleModal" data-orik="@Model.Id">Delete</a>
+</div>
+}
+
+
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Warning!!!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Are you sure for Delete???.............>>>>>>>>>>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                <button type="button" class="btn btn-primary" id="btndelete">Yes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{ 
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#exampleModal").on("show.bs.modal", function (event) {
+
+            let trigerelement = $(event.relatedTarget);
+            let id = trigerelement.data("orik");
+
+            $("#btndelete").click(function () {
+                $.ajax({
+                    type: "Post",
+                    url: "/Contact/Delete",
+                    data: { id: id },
+                    //dataType: "json",
+                    //contentType: "application/json;charset=utf-8",
+                    success: function (data) {
+                        if (data != null && data == true) {
+                            window.location = "/Contact/Index";
+                        }
+                 
+                    },
+                    error: function (error) {
+                        alert(error);
+                    }
+                });
+            });
+        });
+
+    });
+
+</script>
+}

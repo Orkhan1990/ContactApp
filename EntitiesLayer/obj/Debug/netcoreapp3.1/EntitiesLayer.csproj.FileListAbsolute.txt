@@ -1,0 +1,9 @@
+D:\.Net Core Projects\ContactApp\EntitiesLayer\bin\Debug\netcoreapp3.1\EntitiesLayer.deps.json
+D:\.Net Core Projects\ContactApp\EntitiesLayer\bin\Debug\netcoreapp3.1\EntitiesLayer.dll
+D:\.Net Core Projects\ContactApp\EntitiesLayer\bin\Debug\netcoreapp3.1\EntitiesLayer.pdb
+D:\.Net Core Projects\ContactApp\EntitiesLayer\obj\Debug\netcoreapp3.1\EntitiesLayer.csprojAssemblyReference.cache
+D:\.Net Core Projects\ContactApp\EntitiesLayer\obj\Debug\netcoreapp3.1\EntitiesLayer.csproj.CoreCompileInputs.cache
+D:\.Net Core Projects\ContactApp\EntitiesLayer\obj\Debug\netcoreapp3.1\EntitiesLayer.AssemblyInfoInputs.cache
+D:\.Net Core Projects\ContactApp\EntitiesLayer\obj\Debug\netcoreapp3.1\EntitiesLayer.AssemblyInfo.cs
+D:\.Net Core Projects\ContactApp\EntitiesLayer\obj\Debug\netcoreapp3.1\EntitiesLayer.dll
+D:\.Net Core Projects\ContactApp\EntitiesLayer\obj\Debug\netcoreapp3.1\EntitiesLayer.pdb

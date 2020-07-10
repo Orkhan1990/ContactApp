@@ -1,0 +1,14 @@
+D:\.Net Core Projects\ContactApp\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.deps.json
+D:\.Net Core Projects\ContactApp\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.dll
+D:\.Net Core Projects\ContactApp\BusinessLayer\bin\Debug\netcoreapp3.1\BusinessLayer.pdb
+D:\.Net Core Projects\ContactApp\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csprojAssemblyReference.cache
+D:\.Net Core Projects\ContactApp\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\.Net Core Projects\ContactApp\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfoInputs.cache
+D:\.Net Core Projects\ContactApp\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.AssemblyInfo.cs
+D:\.Net Core Projects\ContactApp\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.dll
+D:\.Net Core Projects\ContactApp\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.pdb
+D:\.Net Core Projects\ContactApp\BusinessLayer\bin\Debug\netcoreapp3.1\DataAccesslayer.dll
+D:\.Net Core Projects\ContactApp\BusinessLayer\bin\Debug\netcoreapp3.1\EntitiesLayer.dll
+D:\.Net Core Projects\ContactApp\BusinessLayer\bin\Debug\netcoreapp3.1\DataAccesslayer.pdb
+D:\.Net Core Projects\ContactApp\BusinessLayer\bin\Debug\netcoreapp3.1\EntitiesLayer.pdb
+D:\.Net Core Projects\ContactApp\BusinessLayer\obj\Debug\netcoreapp3.1\BusinessLayer.csproj.CopyComplete
